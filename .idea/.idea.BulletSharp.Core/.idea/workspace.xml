@@ -1,0 +1,1568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="POSTPONE_SUITABLE_CONFIGURATIONS_SEARCH" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a597e368-59c6-4464-9268-8e34a6242ca4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Documentation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentation/Bullet_User_Manual.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentation/Bullet_User_Manual.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentation/README-REALY-README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentation/README-REALY-README.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentation/README-UniversalWindowsPlatform.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentation/README-UniversalWindowsPlatform.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Materials/Ground.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Materials/Ground.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Materials/Object.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Materials/Object.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Materials/RopeMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Materials/RopeMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Prefabs/Cube.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Prefabs/Cube.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Prefabs/Rope.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Prefabs/Rope.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Prefabs/SoftBody.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Prefabs/SoftBody.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/SceneMenu.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/SceneMenu/BackButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/SceneMenu/BackButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/SceneMenu/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/SceneMenu/Editor/UpdateScenesListMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/SceneMenu/Editor/UpdateScenesListMenu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/SceneMenu/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/SceneMenu/Resources/ScenesList.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/SceneMenu/Resources/ScenesList.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/SceneMenu/SceneMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/SceneMenu/SceneMenu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/SceneMenu/ScenesList.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/SceneMenu/ScenesList.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/BasicDemo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/BasicDemo/BasicDemo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/BasicDemo/BasicDemo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/BenchmarkDemo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/BenchmarkDemo/BenchmarkDemo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/BenchmarkDemo/BenchmarkDemo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/BenchmarkDemo/Taru.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/BenchmarkDemo/Taru.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/Box2DDemo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/Box2DDemo/Box2DDemo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/Box2DDemo/Box2DDemo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/BspDemo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/BspDemo/BspConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/BspDemo/BspConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/BspDemo/BspDemo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/BspDemo/BspDemo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/BspDemo/BspLoader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/BspDemo/BspLoader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/BspDemo/data.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/BspDemo/data/BspDemo.bsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/BspDemo/data/BspDemo.bsp.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/BulletExampleRunner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/BulletExampleRunner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/BulletMultiBodyLinkColliderProxy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/BulletMultiBodyLinkColliderProxy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/BulletRigidBodyProxy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/BulletRigidBodyProxy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/BulletRopeProxy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/BulletRopeProxy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/BulletSoftBodyProxy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/BulletSoftBodyProxy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/CcdPhysicsDemo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/CcdPhysicsDemo/CcdPhysicsDemo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/CcdPhysicsDemo/CcdPhysicsDemo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/CharacterDemo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/CharacterDemo/BspConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/CharacterDemo/BspConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/CharacterDemo/BspLoader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/CharacterDemo/BspLoader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/CharacterDemo/CharacterDemo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/CharacterDemo/CharacterDemo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/CharacterDemo/data.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/CharacterDemo/data/BspDemo.bsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/CharacterDemo/data/BspDemo.bsp.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/CollisionInterfaceDemo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/CollisionInterfaceDemo/CollisionInterfaceDemo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/CollisionInterfaceDemo/CollisionInterfaceDemo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/ConcaveConvexCastDemo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/ConcaveConvexCastDemo/ConcaveConvexCastDemo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/ConcaveConvexCastDemo/ConcaveConvexCastDemo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/ConcaveRaycastDemo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/ConcaveRaycastDemo/ConcaveRaycastDemo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/ConcaveRaycastDemo/ConcaveRaycastDemo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/ConstraintDemo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/ConstraintDemo/ConstraintDemo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/ConstraintDemo/ConstraintDemo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/ConvexDecompositionDemo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/ConvexDecompositionDemo/ConvexDecomposition.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/ConvexDecompositionDemo/ConvexDecomposition.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/ConvexDecompositionDemo/ConvexDecompositionDemo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/ConvexDecompositionDemo/ConvexDecompositionDemo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/ConvexDecompositionDemo/Wavefront.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/ConvexDecompositionDemo/Wavefront.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/DemoFramework.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/DemoFramework/Demo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/DemoFramework/Demo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/DemoFramework2UnityInterface.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/DemoFramework2UnityInterface.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/DistanceDemo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/DistanceDemo/DistanceDemo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/DistanceDemo/DistanceDemo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/FeatherStoneDemo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/FeatherStoneDemo/FeatherStoneDemo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/FeatherStoneDemo/FeatherStoneDemo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/GImpactTestDemo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/GImpactTestDemo/BunnyMesh.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/GImpactTestDemo/BunnyMesh.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/GImpactTestDemo/GImpactTestDemo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/GImpactTestDemo/GImpactTestDemo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/GImpactTestDemo/TorusMesh.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/GImpactTestDemo/TorusMesh.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/MeshFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/MeshFactory.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/MeshFactory2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/MeshFactory2.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/MotorDemo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/MotorDemo/MotorDemo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/MotorDemo/MotorDemo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/PendulumDemo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/PendulumDemo/PendulumDemo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/PendulumDemo/PendulumDemo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/RagdollDemo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/RagdollDemo/Ragdoll.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/RagdollDemo/Ragdoll.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/RagdollDemo/RagdollDemo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/RagdollDemo/RagdollDemo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/Resources/BspDemo.bytes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/Resources/BspDemo.bytes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/Resources/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/Resources/Materials/defaultMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/Resources/Materials/defaultMat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/Resources/cube.ele.bytes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/Resources/cube.ele.bytes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/Resources/cube.node.bytes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/Resources/cube.node.bytes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/Resources/cube.ply.bytes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/Resources/cube.ply.bytes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/Resources/file.obj.bytes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/Resources/file.obj.bytes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/RollingFrictionDemo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/RollingFrictionDemo/RollingFrictionDemo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/RollingFrictionDemo/RollingFrictionDemo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/SerializeDemo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/SerializeDemo/SerializeDemo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/SerializeDemo/SerializeDemo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/SerializeDemo/testFile.bullet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/SerializeDemo/testFile.bullet.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/SoftDemo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/SoftDemo/Bunny.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/SoftDemo/Bunny.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/SoftDemo/BunnyMesh.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/SoftDemo/BunnyMesh.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/SoftDemo/SoftDemo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/SoftDemo/SoftDemo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/SoftDemo/TorusMesh.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/SoftDemo/TorusMesh.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/SoftDemo/data.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/SoftDemo/data/cube.ele" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/SoftDemo/data/cube.ele.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/SoftDemo/data/cube.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/SoftDemo/data/cube.node.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/SoftDemo/data/cube.ply" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/SoftDemo/data/cube.ply.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/VehicleDemo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/VehicleDemo/CustomVehicle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/VehicleDemo/CustomVehicle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/VehicleDemo/VehicleDemo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/BulletSharpDemos/VehicleDemo/VehicleDemo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/ExampleRunner.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/BulletSharpDemos/ExampleRunner.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/CharacterController.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/CharacterController/CharacterController.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/CharacterController/CharacterController.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/CharacterController/MoveCharacterController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/CharacterController/MoveCharacterController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/CollisionCallbacks.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/CollisionCallbacks/CollisionCallbacks.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/CollisionCallbacks/CollisionCallbacks.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/CollisionCallbacks/CustomCollisionCallbackScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/CollisionCallbacks/CustomCollisionCallbackScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/Constraints.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/Constraints/Constraints.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/Constraints/Constraints.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/ExampleMenu.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/ExampleMenu.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/Racast.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/Racast/Racast.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/Racast/Racast.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/Racast/TestRaycast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/Racast/TestRaycast.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/Ragdoll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/Ragdoll/Ragdoll.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/Ragdoll/Ragdoll.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/RealtimeSimWithOfflinePrediction.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/RealtimeSimWithOfflinePrediction/BallThrowTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/RealtimeSimWithOfflinePrediction/BallThrowTest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/RealtimeSimWithOfflinePrediction/GhostBallPrefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/RealtimeSimWithOfflinePrediction/GhostBallPrefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/RealtimeSimWithOfflinePrediction/GhostMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/RealtimeSimWithOfflinePrediction/GhostMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/RealtimeSimWithOfflinePrediction/OfflineBallSimulation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/RealtimeSimWithOfflinePrediction/OfflineBallSimulation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/RealtimeSimWithOfflinePrediction/RealtimeSimWithOfflinePrediction.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/RealtimeSimWithOfflinePrediction/RealtimeSimWithOfflinePrediction.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SimpleOfflineSimulation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SimpleOfflineSimulation/SimpleOfflineSimulation.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SimpleOfflineSimulation/SimpleOfflineSimulation.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody/AnimeGirl.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody/AnimeGirl.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody/AnimeGirlController.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody/AnimeGirlController.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody/BunnyRainTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody/BunnyRainTest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody/ExtendedFlycam.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody/ExtendedFlycam.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody/HighPolySkinnedMeshDrivenByLowPolySoftBody.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody/HighPolySkinnedMeshDrivenByLowPolySoftBody.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody/Materials/Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody/Materials/Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody/Materials/No Name.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody/Materials/No Name.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody/Materials/basemesh.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody/Materials/basemesh.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody/RBRainTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody/RBRainTest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody/RatherGoodPlayground.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody/RatherGoodPlayground.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody/RopeSticksArray.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody/RopeSticksArray.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody/ShootBox.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody/ShootBox.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody/SkinnedMeshCharacterWithSoftBodyParts.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody/SkinnedMeshCharacterWithSoftBodyParts.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody/TestTeleportJump.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody/TestTeleportJump.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody/TriThing1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody/TriThing1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody/_Blender.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody/_Blender/AnimeGirl.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody/_Blender/AnimeGirl.blend.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody/_Blender/TriThing1.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/SoftBody/_Blender/TriThing1.blend.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/Terrain.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/Terrain/ExampleTerrain.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/Terrain/ExampleTerrain.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/Terrain/heightfieldTest.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/Terrain/heightfieldTest.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/Triggers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/Triggers/ExampleTriggerCallback.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/Triggers/ExampleTriggerCallback.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/Triggers/TriggerExample.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scenes/Triggers/TriggerExample.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scripts/AddForcesAndTorques.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scripts/AddForcesAndTorques.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scripts/MoveKinematicObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scripts/MoveKinematicObject.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scripts/SetAngularAndLinearVelocity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scripts/SetAngularAndLinearVelocity.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scripts/SimpleOfflineSimulation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Scripts/SimpleOfflineSimulation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternalResources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternalResources/Gizmos.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternalResources/Gizmos/Components.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternalResources/Gizmos/Components/BoxShape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternalResources/Gizmos/Components/BoxShape.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternalResources/Gizmos/Components/CapsuleShape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternalResources/Gizmos/Components/CapsuleShape.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternalResources/Gizmos/Components/ConeShape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternalResources/Gizmos/Components/ConeShape.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternalResources/Gizmos/Components/Rigidbody.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternalResources/Gizmos/Components/Rigidbody.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternalResources/Gizmos/Components/SphereShape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternalResources/Gizmos/Components/SphereShape.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternalResources/LineRenderFix.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternalResources/LineRenderFix.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/BSExtensionMethods.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/BSExtensionMethods.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ActivatingCollisionAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ActivatingCollisionAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/AxisSweep3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/AxisSweep3.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/Box2DBox2DCollisionAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/Box2DBox2DCollisionAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/Box2DShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/Box2DShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/BoxBoxCollisionAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/BoxBoxCollisionAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/BoxBoxDetector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/BoxBoxDetector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/BoxShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/BoxShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/BroadphaseInterface.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/BroadphaseInterface.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/BroadphaseProxy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/BroadphaseProxy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/BvhTriangleMeshShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/BvhTriangleMeshShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/CapsuleShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/CapsuleShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/CollisionAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/CollisionAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/CollisionConfiguration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/CollisionConfiguration.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/CollisionCreateFunc.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/CollisionCreateFunc.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/CollisionDispatcher.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/CollisionDispatcher.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/CollisionObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/CollisionObject.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/CollisionObjectWrapper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/CollisionObjectWrapper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/CollisionShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/CollisionShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/CollisionWorld.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/CollisionWorld.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/CompoundCollisionAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/CompoundCollisionAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/CompoundCompoundCollisionAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/CompoundCompoundCollisionAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/CompoundShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/CompoundShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ConcaveShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ConcaveShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ConeShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ConeShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ContinuousConvexCollision.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ContinuousConvexCollision.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/Convex2DConvex2DAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/Convex2DConvex2DAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/Convex2DShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/Convex2DShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ConvexCast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ConvexCast.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ConvexConcaveCollisionAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ConvexConcaveCollisionAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ConvexConvexAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ConvexConvexAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ConvexHullShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ConvexHullShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ConvexInternalShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ConvexInternalShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ConvexPenetrationDepthSolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ConvexPenetrationDepthSolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ConvexPlaneCollisionAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ConvexPlaneCollisionAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ConvexPointCloudShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ConvexPointCloudShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ConvexPolyhedron.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ConvexPolyhedron.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ConvexShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ConvexShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ConvexTriangleMeshShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ConvexTriangleMeshShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/CylinderShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/CylinderShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/Dbvt.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/Dbvt.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/DbvtBroadphase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/DbvtBroadphase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/DefaultCollisionConfiguration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/DefaultCollisionConfiguration.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/DiscreteCollisionDetectorInterface.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/DiscreteCollisionDetectorInterface.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/Dispatcher.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/Dispatcher.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/EmptyCollisionAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/EmptyCollisionAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/EmptyShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/EmptyShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/GImpact.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/GImpact/BoxCollision.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/GImpact/BoxCollision.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/GImpact/CompoundFromGImpact.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/GImpact/CompoundFromGImpact.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/GImpact/GImpactBvh.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/GImpact/GImpactBvh.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/GImpact/GImpactCollisionAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/GImpact/GImpactCollisionAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/GImpact/GImpactQuantizedBvh.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/GImpact/GImpactQuantizedBvh.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/GImpact/GImpactShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/GImpact/GImpactShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/GImpact/TriangleShapeEx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/GImpact/TriangleShapeEx.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/GhostObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/GhostObject.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/GjkConvexCast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/GjkConvexCast.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/GjkEpaPenetrationDepthSolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/GjkEpaPenetrationDepthSolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/GjkPairDetector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/GjkPairDetector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/HeightfieldTerrainShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/HeightfieldTerrainShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ManifoldPoint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ManifoldPoint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ManifoldResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ManifoldResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/MinkowskiPenetrationDepthSolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/MinkowskiPenetrationDepthSolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/MinkowskiSumShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/MinkowskiSumShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/MultiSphereShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/MultiSphereShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/MultimaterialTriangleMeshShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/MultimaterialTriangleMeshShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/OptimizedBvh.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/OptimizedBvh.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/OverlappingPairCache.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/OverlappingPairCache.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/OverlappingPairCallback.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/OverlappingPairCallback.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/PersistentManifold.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/PersistentManifold.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/PointCollector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/PointCollector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/PolyhedralConvexShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/PolyhedralConvexShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/QuantizedBvh.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/QuantizedBvh.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/RaycastCallback.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/RaycastCallback.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ScaledBvhTriangleMeshShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ScaledBvhTriangleMeshShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ShapeHull.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/ShapeHull.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/SimpleBroadphase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/SimpleBroadphase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/SimulationIslandManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/SimulationIslandManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/SoftBodyConcaveCollisionAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/SoftBodyConcaveCollisionAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/SoftRigidCollisionAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/SoftRigidCollisionAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/SoftSoftCollisionAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/SoftSoftCollisionAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/SphereBoxCollisionAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/SphereBoxCollisionAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/SphereShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/SphereShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/SphereSphereCollisionAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/SphereSphereCollisionAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/SphereTriangleCollisionAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/SphereTriangleCollisionAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/SphereTriangleDetector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/SphereTriangleDetector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/StaticPlaneShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/StaticPlaneShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/StridingMeshInterface.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/StridingMeshInterface.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/TetrahedronShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/TetrahedronShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/TriangleBuffer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/TriangleBuffer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/TriangleCallback.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/TriangleCallback.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/TriangleIndexVertexArray.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/TriangleIndexVertexArray.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/TriangleIndexVertexMaterialArray.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/TriangleIndexVertexMaterialArray.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/TriangleInfoMap.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/TriangleInfoMap.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/TriangleMesh.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/TriangleMesh.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/TriangleMeshShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/TriangleMeshShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/TriangleShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/TriangleShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/UniformScalingShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/UniformScalingShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/UnionFind.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/UnionFind.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/VoronoiSimplexSolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Collision/VoronoiSimplexSolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/ConeTwistConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/ConeTwistConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/ConstraintSolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/ConstraintSolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/ContactConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/ContactConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/ContactSolverInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/ContactSolverInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/DantzigSolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/DantzigSolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/DiscreteDynamicsWorld.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/DiscreteDynamicsWorld.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/DynamicsWorld.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/DynamicsWorld.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/Featherstone.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/Featherstone/MultiBody.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/Featherstone/MultiBody.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/Featherstone/MultiBodyConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/Featherstone/MultiBodyConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/Featherstone/MultiBodyConstraintSolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/Featherstone/MultiBodyConstraintSolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/Featherstone/MultiBodyDynamicsWorld.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/Featherstone/MultiBodyDynamicsWorld.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/Featherstone/MultiBodyJointLimitConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/Featherstone/MultiBodyJointLimitConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/Featherstone/MultiBodyJointMotor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/Featherstone/MultiBodyJointMotor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/Featherstone/MultiBodyLink.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/Featherstone/MultiBodyLink.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/Featherstone/MultiBodyLinkCollider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/Featherstone/MultiBodyLinkCollider.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/Featherstone/MultiBodyPoint2Point.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/Featherstone/MultiBodyPoint2Point.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/Featherstone/MultiBodySolverConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/Featherstone/MultiBodySolverConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/FixedConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/FixedConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/GearConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/GearConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/Generic6DofConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/Generic6DofConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/Generic6DofSpring2Constraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/Generic6DofSpring2Constraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/Generic6DofSpringConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/Generic6DofSpringConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/Hinge2Constraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/Hinge2Constraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/HingeConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/HingeConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/IAction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/IAction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/ICharacterController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/ICharacterController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/KinematicCharacterController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/KinematicCharacterController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/MlcpSolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/MlcpSolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/MlcpSolverInterface.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/MlcpSolverInterface.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/NncgConstraintSolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/NncgConstraintSolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/Point2PointConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/Point2PointConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/RaycastVehicle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/RaycastVehicle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/RigidBody.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/RigidBody.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/RigidBodyConstructionInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/RigidBodyConstructionInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/SequentialImpulseConstraintSolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/SequentialImpulseConstraintSolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/SliderConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/SliderConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/TypedConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/TypedConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/UniversalConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/UniversalConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/VehicleRaycaster.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/VehicleRaycaster.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/WheelInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Dynamics/WheelInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Extras.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Extras/BulletFile.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Extras/BulletFile.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Extras/BulletReader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Extras/BulletReader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Extras/BulletWorldImporter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Extras/BulletWorldImporter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Extras/BulletWriter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Extras/BulletWriter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Extras/BulletXmlWorldImporter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Extras/BulletXmlWorldImporter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Extras/Chunk.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Extras/Chunk.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Extras/Dna.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Extras/Dna.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Extras/Hacd.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Extras/Hacd.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Extras/WorldImporter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Extras/WorldImporter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Extras/bFile.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Extras/bFile.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/InvalidDataException.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/InvalidDataException.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/LinearMath.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/LinearMath/AlignedBroadphasePairArray.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/LinearMath/AlignedBroadphasePairArray.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/LinearMath/AlignedCollisionObjectArray.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/LinearMath/AlignedCollisionObjectArray.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/LinearMath/AlignedIndexedMeshArray.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/LinearMath/AlignedIndexedMeshArray.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/LinearMath/AlignedManifoldArray.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/LinearMath/AlignedManifoldArray.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/LinearMath/AlignedVector3Array.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/LinearMath/AlignedVector3Array.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/LinearMath/Collections.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/LinearMath/Collections.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/LinearMath/CpuFeatureUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/LinearMath/CpuFeatureUtility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/LinearMath/DebugDraw.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/LinearMath/DebugDraw.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/LinearMath/DefaultMotionState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/LinearMath/DefaultMotionState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/LinearMath/GeometryUtil.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/LinearMath/GeometryUtil.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/LinearMath/IDebugDraw.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/LinearMath/IDebugDraw.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/LinearMath/MotionState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/LinearMath/MotionState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/LinearMath/PolarDecomposition.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/LinearMath/PolarDecomposition.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/LinearMath/Serializer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/LinearMath/Serializer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/LinearMath/TransformUtil.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/LinearMath/TransformUtil.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Math.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Math/Matrix.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Math/Matrix.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Math/Quaternion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Math/Quaternion.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Math/Vector3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Math/Vector3.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Math/Vector4.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Math/Vector4.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/MathUtil.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/MathUtil.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Native.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Native.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/SoftBody.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/SoftBody/AlignedAnchorArray.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/SoftBody/AlignedAnchorArray.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/SoftBody/AlignedClusterArray.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/SoftBody/AlignedClusterArray.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/SoftBody/AlignedFaceArray.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/SoftBody/AlignedFaceArray.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/SoftBody/AlignedJointArray.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/SoftBody/AlignedJointArray.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/SoftBody/AlignedLinkArray.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/SoftBody/AlignedLinkArray.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/SoftBody/AlignedMaterialArray.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/SoftBody/AlignedMaterialArray.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/SoftBody/AlignedNodeArray.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/SoftBody/AlignedNodeArray.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/SoftBody/AlignedSoftBodyArray.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/SoftBody/AlignedSoftBodyArray.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/SoftBody/AlignedTetraArray.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/SoftBody/AlignedTetraArray.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/SoftBody/Collections.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/SoftBody/Collections.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/SoftBody/DefaultSoftBodySolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/SoftBody/DefaultSoftBodySolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/SoftBody/SoftBody.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/SoftBody/SoftBody.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/SoftBody/SoftBodyHelpers.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/SoftBody/SoftBodyHelpers.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/SoftBody/SoftBodyRigidBodyCollisionConfiguration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/SoftBody/SoftBodyRigidBodyCollisionConfiguration.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/SoftBody/SoftBodySolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/SoftBody/SoftBodySolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/SoftBody/SoftRigidDynamicsWorld.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/SoftBody/SoftRigidDynamicsWorld.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/SoftBody/SparseSdf.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/SoftBody/SparseSdf.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Utilities.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/BulletSharp/Utilities.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/Linux/32/libbulletc.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/Linux/32/libbulletc.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/Linux/64/libbulletc.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/Linux/64/libbulletc.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/OSX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/OSX/libbulletc.bundle.dSYM.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/OSX/libbulletc.bundle.dSYM/Contents.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/OSX/libbulletc.bundle.dSYM/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/OSX/libbulletc.bundle.dSYM/Contents/Info.plist.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/OSX/libbulletc.bundle.dSYM/Contents/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/OSX/libbulletc.bundle.dSYM/Contents/Resources/DWARF.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/OSX/libbulletc.bundle.dSYM/Contents/Resources/DWARF/libbulletc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/OSX/libbulletc.bundle.dSYM/Contents/Resources/DWARF/libbulletc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/OSX/libbulletc.bundle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/OSX/libbulletc.bundle/Contents.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/OSX/libbulletc.bundle/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/OSX/libbulletc.bundle/Contents/Info.plist.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/OSX/libbulletc.bundle/Contents/MacOS.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/OSX/libbulletc.bundle/Contents/MacOS/libbulletc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/OSX/libbulletc.bundle/Contents/MacOS/libbulletc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/OSX/libbulletc.bundle/Contents/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/OSX/libbulletc.bundle/Contents/Resources/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/OSX/libbulletc.bundle/Contents/Resources/CMakeLists.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/OSX/libbulletc.bundle/Contents/Resources/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/OSX/libbulletc.bundle/Contents/Resources/Makefile.am.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/OSX/libbulletc.bundle/Contents/Resources/hacdCircularList.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/OSX/libbulletc.bundle/Contents/Resources/hacdCircularList.inl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/OSX/libbulletc.bundle/Contents/Resources/hacdVector.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/OSX/libbulletc.bundle/Contents/Resources/hacdVector.inl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/OSX/libbulletc.bundle/Contents/Resources/premake4.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/OSX/libbulletc.bundle/Contents/Resources/premake4.lua.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/UWP.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/UWP/ARM.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/UWP/ARM/libbulletc.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/UWP/ARM/libbulletc.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/UWP/x64.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/UWP/x64/libbulletc.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/UWP/x64/libbulletc.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/UWP/x86.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/UWP/x86/libbulletc.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/UWP/x86/libbulletc.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/android.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/android/armeabi-v7a.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/android/armeabi-v7a/libbulletc.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/android/armeabi-v7a/libbulletc.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/android/x86.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/android/x86/libbulletc.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/android/x86/libbulletc.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btActionInterface_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btActionInterface_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btAlignedObjectArray_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btAlignedObjectArray_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btAxisSweep3_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btAxisSweep3_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btBox2dBox2dCollisionAlgorithm_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btBox2dBox2dCollisionAlgorithm_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btBox2dShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btBox2dShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btBoxBoxCollisionAlgorithm_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btBoxBoxCollisionAlgorithm_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btBoxBoxDetector_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btBoxBoxDetector_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btBoxCollision_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btBoxCollision_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btBoxShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btBoxShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btBroadphaseInterface_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btBroadphaseInterface_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btBroadphaseProxy_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btBroadphaseProxy_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btBulletFile_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btBulletFile_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btBulletWorldImporter_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btBulletWorldImporter_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btBulletXmlWorldImporter_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btBulletXmlWorldImporter_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btBvhTriangleMeshShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btBvhTriangleMeshShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btCapsuleShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btCapsuleShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btCharacterControllerInterface_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btCharacterControllerInterface_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btCollisionAlgorithm_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btCollisionAlgorithm_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btCollisionConfiguration_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btCollisionConfiguration_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btCollisionCreateFunc_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btCollisionCreateFunc_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btCollisionDispatcher_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btCollisionDispatcher_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btCollisionObjectWrapper_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btCollisionObjectWrapper_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btCollisionObject_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btCollisionObject_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btCollisionShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btCollisionShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btCollisionWorld_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btCollisionWorld_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btCompoundCollisionAlgorithm_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btCompoundCollisionAlgorithm_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btCompoundCompoundCollisionAlgorithm_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btCompoundCompoundCollisionAlgorithm_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btCompoundFromGimpact_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btCompoundFromGimpact_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btCompoundShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btCompoundShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btConcaveShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btConcaveShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btConeShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btConeShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btConeTwistConstraint_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btConeTwistConstraint_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btConstraintSolver_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btConstraintSolver_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btContactConstraint_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btContactConstraint_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btContactSolverInfo_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btContactSolverInfo_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btContinuousConvexCollision_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btContinuousConvexCollision_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btConvex2dConvex2dAlgorithm_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btConvex2dConvex2dAlgorithm_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btConvex2dShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btConvex2dShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btConvexCast_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btConvexCast_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btConvexConcaveCollisionAlgorithm_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btConvexConcaveCollisionAlgorithm_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btConvexConvexAlgorithm_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btConvexConvexAlgorithm_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btConvexHullShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btConvexHullShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btConvexInternalShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btConvexInternalShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btConvexPenetrationDepthSolver_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btConvexPenetrationDepthSolver_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btConvexPlaneCollisionAlgorithm_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btConvexPlaneCollisionAlgorithm_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btConvexPointCloudShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btConvexPointCloudShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btConvexPolyhedron_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btConvexPolyhedron_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btConvexShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btConvexShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btConvexTriangleMeshShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btConvexTriangleMeshShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btCpuFeatureUtility_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btCpuFeatureUtility_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btCylinderShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btCylinderShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btDantzigSolver_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btDantzigSolver_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btDbvtBroadphase_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btDbvtBroadphase_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btDbvt_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btDbvt_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btDefaultCollisionConfiguration_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btDefaultCollisionConfiguration_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btDefaultMotionState_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btDefaultMotionState_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btDefaultSoftBodySolver_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btDefaultSoftBodySolver_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btDiscreteCollisionDetectorInterface_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btDiscreteCollisionDetectorInterface_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btDiscreteDynamicsWorld_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btDiscreteDynamicsWorld_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btDispatcher_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btDispatcher_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btDynamicsWorld_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btDynamicsWorld_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btEmptyCollisionAlgorithm_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btEmptyCollisionAlgorithm_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btEmptyShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btEmptyShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btFixedConstraint_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btFixedConstraint_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btGImpactBvh_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btGImpactBvh_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btGImpactCollisionAlgorithm_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btGImpactCollisionAlgorithm_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btGImpactQuantizedBvh_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btGImpactQuantizedBvh_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btGImpactShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btGImpactShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btGearConstraint_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btGearConstraint_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btGeneric6DofConstraint_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btGeneric6DofConstraint_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btGeneric6DofSpring2Constraint_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btGeneric6DofSpring2Constraint_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btGeneric6DofSpringConstraint_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btGeneric6DofSpringConstraint_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btGeometryUtil_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btGeometryUtil_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btGhostObject_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btGhostObject_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btGjkConvexCast_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btGjkConvexCast_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btGjkEpaPenetrationDepthSolver_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btGjkEpaPenetrationDepthSolver_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btGjkPairDetector_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btGjkPairDetector_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btHeightfieldTerrainShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btHeightfieldTerrainShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btHinge2Constraint_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btHinge2Constraint_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btHingeConstraint_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btHingeConstraint_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btIDebugDraw_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btIDebugDraw_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btKinematicCharacterController_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btKinematicCharacterController_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btLemkeSolver_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btLemkeSolver_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btMLCPSolverInterface_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btMLCPSolverInterface_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btMLCPSolver_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btMLCPSolver_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btManifoldPoint_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btManifoldPoint_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btManifoldResult_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btManifoldResult_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btMinkowskiPenetrationDepthSolver_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btMinkowskiPenetrationDepthSolver_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btMinkowskiSumShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btMinkowskiSumShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btMotionState_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btMotionState_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btMultiBodyConstraintSolver_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btMultiBodyConstraintSolver_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btMultiBodyConstraint_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btMultiBodyConstraint_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btMultiBodyDynamicsWorld_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btMultiBodyDynamicsWorld_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btMultiBodyJointLimitConstraint_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btMultiBodyJointLimitConstraint_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btMultiBodyJointMotor_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btMultiBodyJointMotor_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btMultiBodyLinkCollider_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btMultiBodyLinkCollider_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btMultiBodyLink_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btMultiBodyLink_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btMultiBodyPoint2Point_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btMultiBodyPoint2Point_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btMultiBodySolverConstraint_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btMultiBodySolverConstraint_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btMultiBody_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btMultiBody_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btMultiSphereShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btMultiSphereShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btMultimaterialTriangleMeshShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btMultimaterialTriangleMeshShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btNNCGConstraintSolver_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btNNCGConstraintSolver_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btOptimizedBvh_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btOptimizedBvh_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btOverlappingPairCache_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btOverlappingPairCache_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btOverlappingPairCallback_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btOverlappingPairCallback_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btPersistentManifold_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btPersistentManifold_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btPoint2PointConstraint_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btPoint2PointConstraint_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btPointCollector_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btPointCollector_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btPolarDecomposition_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btPolarDecomposition_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btPolyhedralConvexShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btPolyhedralConvexShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btQuantizedBvh_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btQuantizedBvh_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btRaycastVehicle_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btRaycastVehicle_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btRigidBody_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btRigidBody_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btScaledBvhTriangleMeshShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btScaledBvhTriangleMeshShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btSequentialImpulseConstraintSolver_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btSequentialImpulseConstraintSolver_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btSerializer_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btSerializer_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btShapeHull_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btShapeHull_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btSimulationIslandManager_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btSimulationIslandManager_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btSliderConstraint_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btSliderConstraint_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btSoftBodyConcaveCollisionAlgorithm_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btSoftBodyConcaveCollisionAlgorithm_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btSoftBodyHelpers_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btSoftBodyHelpers_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btSoftBodyRigidBodyCollisionConfiguration_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btSoftBodyRigidBodyCollisionConfiguration_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btSoftBodySolvers_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btSoftBodySolvers_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btSoftBody_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btSoftBody_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btSoftRigidCollisionAlgorithm_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btSoftRigidCollisionAlgorithm_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btSoftRigidDynamicsWorld_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btSoftRigidDynamicsWorld_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btSoftSoftCollisionAlgorithm_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btSoftSoftCollisionAlgorithm_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btSparseSdf3_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btSparseSdf3_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btSphereBoxCollisionAlgorithm_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btSphereBoxCollisionAlgorithm_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btSphereShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btSphereShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btSphereSphereCollisionAlgorithm_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btSphereSphereCollisionAlgorithm_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btSphereTriangleCollisionAlgorithm_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btSphereTriangleCollisionAlgorithm_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btStaticPlaneShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btStaticPlaneShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btStridingMeshInterface_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btStridingMeshInterface_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btTetrahedronShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btTetrahedronShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btTransformUtil_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btTransformUtil_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btTriangleBuffer_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btTriangleBuffer_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btTriangleCallback_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btTriangleCallback_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btTriangleIndexVertexArray_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btTriangleIndexVertexArray_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btTriangleIndexVertexMaterialArray_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btTriangleIndexVertexMaterialArray_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btTriangleInfoMap_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btTriangleInfoMap_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btTriangleMeshShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btTriangleMeshShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btTriangleMesh_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btTriangleMesh_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btTriangleShapeEx_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btTriangleShapeEx_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btTriangleShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btTriangleShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btTypedConstraint_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btTypedConstraint_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btUniformScalingShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btUniformScalingShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btUnionFind_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btUnionFind_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btUniversalConstraint_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btUniversalConstraint_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btVehicleRaycaster_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btVehicleRaycaster_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btVoronoiSimplexSolver_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btVoronoiSimplexSolver_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btWheelInfo_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btWheelInfo_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btWorldImporter_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/btWorldImporter_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/bulletc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/bulletc.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/collections.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/collections.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/conversion.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/conversion.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/hacdHACD_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/hacdHACD_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/libbulletc.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/libbulletc.a.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/main.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/iOS/main.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/x64.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/x64/libbulletc.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/x86.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/x86/libbulletc.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/BulletUnity/Native/x86/libbulletc.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Materials/Wolf_surf.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Materials/Wolf_surf.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Wolf.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Wolf.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/bulletLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/bulletLogo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/BCamera.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/BCamera.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/BCharacterController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/BCharacterController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/BCollisionCallbacks.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/BCollisionCallbacks.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/BCollisionCallbacksDefault.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/BCollisionCallbacksDefault.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/BCollisionObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/BCollisionObject.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/BGameObjectMotionState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/BGameObjectMotionState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/BGhostObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/BGhostObject.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/BPairCachingGhostObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/BPairCachingGhostObject.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/BPhysicsWorld.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/BPhysicsWorld.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/BPhysicsWorldLateHelper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/BPhysicsWorldLateHelper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/BRigidBody.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/BRigidBody.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/BSExtensionMethods2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/BSExtensionMethods2.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/BTerrainCollisionObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/BTerrainCollisionObject.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/BUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/BUtility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/CollisionShapes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/CollisionShapes/BBoxShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/CollisionShapes/BBoxShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/CollisionShapes/BBvhTriangleMeshShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/CollisionShapes/BBvhTriangleMeshShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/CollisionShapes/BCapsuleShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/CollisionShapes/BCapsuleShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/CollisionShapes/BCollisionShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/CollisionShapes/BCollisionShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/CollisionShapes/BCompoundShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/CollisionShapes/BCompoundShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/CollisionShapes/BConeShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/CollisionShapes/BConeShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/CollisionShapes/BConvexHullShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/CollisionShapes/BConvexHullShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/CollisionShapes/BConvexTriangleMeshShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/CollisionShapes/BConvexTriangleMeshShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/CollisionShapes/BCylinderShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/CollisionShapes/BCylinderShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/CollisionShapes/BHeightfieldTerrainShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/CollisionShapes/BHeightfieldTerrainShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/CollisionShapes/BMultiSphereShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/CollisionShapes/BMultiSphereShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/CollisionShapes/BSphereShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/CollisionShapes/BSphereShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Constraints.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Constraints/B6DOFConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Constraints/B6DOFConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Constraints/BBallSocketConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Constraints/BBallSocketConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Constraints/BConeTwistConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Constraints/BConeTwistConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Constraints/BFixedConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Constraints/BFixedConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Constraints/BHingedConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Constraints/BHingedConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Constraints/BSliderConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Constraints/BSliderConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Constraints/BTypedConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Constraints/BTypedConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Constraints/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Constraints/Editor/B6DOFConstraintEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Constraints/Editor/B6DOFConstraintEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Constraints/Editor/BBallSocketConstraintEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Constraints/Editor/BBallSocketConstraintEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Constraints/Editor/BConeTwistConstraintEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Constraints/Editor/BConeTwistConstraintEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Constraints/Editor/BFixedConstraintEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Constraints/Editor/BFixedConstraintEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Constraints/Editor/BHingedConstraintEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Constraints/Editor/BHingedConstraintEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Constraints/Editor/BSliderConstraintEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Constraints/Editor/BSliderConstraintEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Constraints/Editor/BTypedConstraintEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Constraints/Editor/BTypedConstraintEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Debug.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Debug/BDebug.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Debug/BDebug.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/DebugDrawUnity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/DebugDrawUnity.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/BBoxShapeEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/BBoxShapeEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/BBvhTriangleMeshShapeEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/BBvhTriangleMeshShapeEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/BCapsuleShapeEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/BCapsuleShapeEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/BCollisionObjectEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/BCollisionObjectEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/BCompoundShapeEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/BCompoundShapeEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/BConeShapeEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/BConeShapeEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/BConvexHullShapeEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/BConvexHullShapeEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/BConvexTriangleMeshShapeEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/BConvexTriangleMeshShapeEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/BCylinderShapeEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/BCylinderShapeEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/BGhostObjectEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/BGhostObjectEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/BMultiSphereShapeEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/BMultiSphereShapeEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/BPairCachingGhostObjectEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/BPairCachingGhostObjectEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/BPhysicsWorldEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/BPhysicsWorldEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/BPrimitiveComponentOrderSorter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/BPrimitiveComponentOrderSorter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/BRigidBodyEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/BRigidBodyEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/BSoftBodyComponentOrderSorter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/BSoftBodyComponentOrderSorter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/BSoftBodyEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/BSoftBodyEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/BSphereShapeEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/BSphereShapeEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/EditorHelpers.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/EditorHelpers.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/EditorInterface.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/EditorInterface.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/PrimitiveEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Editor/PrimitiveEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Extensions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Extensions/EnumsExtension.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Extensions/EnumsExtension.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Primitives.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Primitives/BBox.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Primitives/BBox.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Primitives/BCapsule.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Primitives/BCapsule.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Primitives/BCone.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Primitives/BCone.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Primitives/BConvexHull.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Primitives/BConvexHull.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Primitives/BConvexTriMesh.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Primitives/BConvexTriMesh.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Primitives/BCylinder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Primitives/BCylinder.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Primitives/BPrimitive.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Primitives/BPrimitive.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Primitives/BSphere.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Primitives/BSphere.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Primitives/EnumerationExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Primitives/EnumerationExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/ProceduralMeshes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/ProceduralMeshes/PPMeshFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/ProceduralMeshes/PPMeshFactory.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/ProceduralMeshes/ProceduralPrimitives.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/ProceduralMeshes/ProceduralPrimitives.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/SoftBody.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/SoftBody/BSoftBody.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/SoftBody/BSoftBody.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/SoftBody/BSoftBodyPartOnSkinnedMesh.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/SoftBody/BSoftBodyPartOnSkinnedMesh.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/SoftBody/BSoftBodyRope.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/SoftBody/BSoftBodyRope.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/SoftBody/BSoftBodyWMesh.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/SoftBody/BSoftBodyWMesh.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/SoftBody/SBSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/SoftBody/SBSettings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/license.txt.meta" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BulletSharp.Core/BulletSharp.Core.csproj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="51" lean-forward="true" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="E:/Workspace/WordRecounter" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/BulletSharp.Core/Class1.cs" />
+        <option value="$PROJECT_DIR$/BulletSharp.Core/BulletSharp.Core.csproj" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="2560" />
+    <option name="height" value="1440" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BulletSharp.Core" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BulletSharp.Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="BulletSharp.Core" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BulletSharp.Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="BulletSharp.Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Native" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BulletSharp.Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="BulletSharp.Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Native" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Linux" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BulletSharp.Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="BulletSharp.Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Native" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Linux" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="64" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Programs/GithubProjects/BulletSharpCore/BulletSharp/BulletSharp.DotNetCore.sln" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.scopes" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a597e368-59c6-4464-9268-8e34a6242ca4" name="Default Changelist" comment="" />
+      <created>1550108978701</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550108978701</updated>
+      <workItem from="1550108981604" duration="6382000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6382000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="2560" height="1440" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="TeamCity" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info active="true" anchor="bottom" id="Build" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/BulletSharp.Core/Class1.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BulletSharp.Core/BulletSharp.Core.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="51" lean-forward="true" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <last-edited>Unnamed</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

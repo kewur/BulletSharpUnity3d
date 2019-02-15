@@ -1,0 +1,1299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="POSTPONE_SUITABLE_CONFIGURATIONS_SEARCH" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1800c96b-cdbb-4334-a623-b5ef1e6e80b2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/BulletSharp.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/BSExtensionMethods.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/BSExtensionMethods.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ActivatingCollisionAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ActivatingCollisionAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/AxisSweep3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/AxisSweep3.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/Box2DBox2DCollisionAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/Box2DBox2DCollisionAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/Box2DShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/Box2DShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/BoxBoxCollisionAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/BoxBoxCollisionAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/BoxBoxDetector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/BoxBoxDetector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/BoxShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/BoxShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/BroadphaseInterface.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/BroadphaseInterface.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/BroadphaseProxy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/BroadphaseProxy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/BvhTriangleMeshShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/BvhTriangleMeshShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/CapsuleShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/CapsuleShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/CollisionAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/CollisionAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/CollisionConfiguration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/CollisionConfiguration.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/CollisionCreateFunc.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/CollisionCreateFunc.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/CollisionDispatcher.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/CollisionDispatcher.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/CollisionObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/CollisionObject.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/CollisionObjectWrapper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/CollisionObjectWrapper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/CollisionShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/CollisionShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/CollisionWorld.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/CollisionWorld.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/CompoundCollisionAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/CompoundCollisionAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/CompoundCompoundCollisionAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/CompoundCompoundCollisionAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/CompoundShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/CompoundShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ConcaveShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ConcaveShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ConeShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ConeShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ContinuousConvexCollision.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ContinuousConvexCollision.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/Convex2DConvex2DAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/Convex2DConvex2DAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/Convex2DShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/Convex2DShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ConvexCast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ConvexCast.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ConvexConcaveCollisionAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ConvexConcaveCollisionAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ConvexConvexAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ConvexConvexAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ConvexHullShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ConvexHullShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ConvexInternalShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ConvexInternalShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ConvexPenetrationDepthSolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ConvexPenetrationDepthSolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ConvexPlaneCollisionAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ConvexPlaneCollisionAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ConvexPointCloudShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ConvexPointCloudShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ConvexPolyhedron.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ConvexPolyhedron.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ConvexShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ConvexShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ConvexTriangleMeshShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ConvexTriangleMeshShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/CylinderShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/CylinderShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/Dbvt.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/Dbvt.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/DbvtBroadphase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/DbvtBroadphase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/DefaultCollisionConfiguration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/DefaultCollisionConfiguration.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/DiscreteCollisionDetectorInterface.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/DiscreteCollisionDetectorInterface.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/Dispatcher.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/Dispatcher.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/EmptyCollisionAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/EmptyCollisionAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/EmptyShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/EmptyShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/GImpact.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/GImpact/BoxCollision.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/GImpact/BoxCollision.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/GImpact/CompoundFromGImpact.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/GImpact/CompoundFromGImpact.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/GImpact/GImpactBvh.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/GImpact/GImpactBvh.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/GImpact/GImpactCollisionAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/GImpact/GImpactCollisionAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/GImpact/GImpactQuantizedBvh.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/GImpact/GImpactQuantizedBvh.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/GImpact/GImpactShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/GImpact/GImpactShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/GImpact/TriangleShapeEx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/GImpact/TriangleShapeEx.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/GhostObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/GhostObject.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/GjkConvexCast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/GjkConvexCast.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/GjkEpaPenetrationDepthSolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/GjkEpaPenetrationDepthSolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/GjkPairDetector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/GjkPairDetector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/HeightfieldTerrainShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/HeightfieldTerrainShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ManifoldPoint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ManifoldPoint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ManifoldResult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ManifoldResult.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/MinkowskiPenetrationDepthSolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/MinkowskiPenetrationDepthSolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/MinkowskiSumShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/MinkowskiSumShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/MultiSphereShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/MultiSphereShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/MultimaterialTriangleMeshShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/MultimaterialTriangleMeshShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/OptimizedBvh.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/OptimizedBvh.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/OverlappingPairCache.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/OverlappingPairCache.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/OverlappingPairCallback.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/OverlappingPairCallback.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/PersistentManifold.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/PersistentManifold.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/PointCollector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/PointCollector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/PolyhedralConvexShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/PolyhedralConvexShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/QuantizedBvh.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/QuantizedBvh.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/RaycastCallback.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/RaycastCallback.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ScaledBvhTriangleMeshShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ScaledBvhTriangleMeshShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ShapeHull.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/ShapeHull.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/SimpleBroadphase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/SimpleBroadphase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/SimulationIslandManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/SimulationIslandManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/SoftBodyConcaveCollisionAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/SoftBodyConcaveCollisionAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/SoftRigidCollisionAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/SoftRigidCollisionAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/SoftSoftCollisionAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/SoftSoftCollisionAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/SphereBoxCollisionAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/SphereBoxCollisionAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/SphereShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/SphereShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/SphereSphereCollisionAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/SphereSphereCollisionAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/SphereTriangleCollisionAlgorithm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/SphereTriangleCollisionAlgorithm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/SphereTriangleDetector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/SphereTriangleDetector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/StaticPlaneShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/StaticPlaneShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/StridingMeshInterface.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/StridingMeshInterface.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/TetrahedronShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/TetrahedronShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/TriangleBuffer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/TriangleBuffer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/TriangleCallback.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/TriangleCallback.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/TriangleIndexVertexArray.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/TriangleIndexVertexArray.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/TriangleIndexVertexMaterialArray.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/TriangleIndexVertexMaterialArray.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/TriangleInfoMap.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/TriangleInfoMap.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/TriangleMesh.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/TriangleMesh.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/TriangleMeshShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/TriangleMeshShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/TriangleShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/TriangleShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/UniformScalingShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/UniformScalingShape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/UnionFind.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/UnionFind.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/VoronoiSimplexSolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Collision/VoronoiSimplexSolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/ConeTwistConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/ConeTwistConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/ConstraintSolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/ConstraintSolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/ContactConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/ContactConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/ContactSolverInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/ContactSolverInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/DantzigSolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/DantzigSolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/DiscreteDynamicsWorld.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/DiscreteDynamicsWorld.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/DynamicsWorld.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/DynamicsWorld.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/Featherstone.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/Featherstone/MultiBody.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/Featherstone/MultiBody.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/Featherstone/MultiBodyConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/Featherstone/MultiBodyConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/Featherstone/MultiBodyConstraintSolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/Featherstone/MultiBodyConstraintSolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/Featherstone/MultiBodyDynamicsWorld.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/Featherstone/MultiBodyDynamicsWorld.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/Featherstone/MultiBodyJointLimitConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/Featherstone/MultiBodyJointLimitConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/Featherstone/MultiBodyJointMotor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/Featherstone/MultiBodyJointMotor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/Featherstone/MultiBodyLink.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/Featherstone/MultiBodyLink.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/Featherstone/MultiBodyLinkCollider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/Featherstone/MultiBodyLinkCollider.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/Featherstone/MultiBodyPoint2Point.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/Featherstone/MultiBodyPoint2Point.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/Featherstone/MultiBodySolverConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/Featherstone/MultiBodySolverConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/FixedConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/FixedConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/GearConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/GearConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/Generic6DofConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/Generic6DofConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/Generic6DofSpring2Constraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/Generic6DofSpring2Constraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/Generic6DofSpringConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/Generic6DofSpringConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/Hinge2Constraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/Hinge2Constraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/HingeConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/HingeConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/IAction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/IAction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/ICharacterController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/ICharacterController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/KinematicCharacterController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/KinematicCharacterController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/MlcpSolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/MlcpSolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/MlcpSolverInterface.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/MlcpSolverInterface.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/NncgConstraintSolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/NncgConstraintSolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/Point2PointConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/Point2PointConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/RaycastVehicle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/RaycastVehicle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/RigidBody.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/RigidBody.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/RigidBodyConstructionInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/RigidBodyConstructionInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/SequentialImpulseConstraintSolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/SequentialImpulseConstraintSolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/SliderConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/SliderConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/TypedConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/TypedConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/UniversalConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/UniversalConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/VehicleRaycaster.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/VehicleRaycaster.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/WheelInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Dynamics/WheelInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Extras.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Extras/BulletFile.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Extras/BulletFile.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Extras/BulletReader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Extras/BulletReader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Extras/BulletWorldImporter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Extras/BulletWorldImporter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Extras/BulletWriter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Extras/BulletWriter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Extras/BulletXmlWorldImporter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Extras/BulletXmlWorldImporter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Extras/Chunk.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Extras/Chunk.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Extras/Dna.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Extras/Dna.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Extras/Hacd.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Extras/Hacd.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Extras/WorldImporter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Extras/WorldImporter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Extras/bFile.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Extras/bFile.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/InvalidDataException.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/InvalidDataException.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/LinearMath.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/LinearMath/AlignedBroadphasePairArray.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/LinearMath/AlignedBroadphasePairArray.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/LinearMath/AlignedCollisionObjectArray.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/LinearMath/AlignedCollisionObjectArray.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/LinearMath/AlignedIndexedMeshArray.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/LinearMath/AlignedIndexedMeshArray.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/LinearMath/AlignedManifoldArray.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/LinearMath/AlignedManifoldArray.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/LinearMath/AlignedVector3Array.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/LinearMath/AlignedVector3Array.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/LinearMath/Collections.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/LinearMath/Collections.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/LinearMath/CpuFeatureUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/LinearMath/CpuFeatureUtility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/LinearMath/DebugDraw.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/LinearMath/DebugDraw.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/LinearMath/DefaultMotionState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/LinearMath/DefaultMotionState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/LinearMath/GeometryUtil.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/LinearMath/GeometryUtil.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/LinearMath/IDebugDraw.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/LinearMath/IDebugDraw.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/LinearMath/MotionState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/LinearMath/MotionState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/LinearMath/PolarDecomposition.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/LinearMath/PolarDecomposition.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/LinearMath/Serializer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/LinearMath/Serializer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/LinearMath/TransformUtil.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/LinearMath/TransformUtil.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Math.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Math/Matrix.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Math/Matrix.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Math/Quaternion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Math/Quaternion.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Math/Vector3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Math/Vector3.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Math/Vector4.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Math/Vector4.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/MathUtil.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/MathUtil.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Native.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Native.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/SoftBody.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/SoftBody/AlignedAnchorArray.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/SoftBody/AlignedAnchorArray.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/SoftBody/AlignedClusterArray.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/SoftBody/AlignedClusterArray.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/SoftBody/AlignedFaceArray.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/SoftBody/AlignedFaceArray.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/SoftBody/AlignedJointArray.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/SoftBody/AlignedJointArray.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/SoftBody/AlignedLinkArray.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/SoftBody/AlignedLinkArray.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/SoftBody/AlignedMaterialArray.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/SoftBody/AlignedMaterialArray.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/SoftBody/AlignedNodeArray.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/SoftBody/AlignedNodeArray.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/SoftBody/AlignedSoftBodyArray.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/SoftBody/AlignedSoftBodyArray.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/SoftBody/AlignedTetraArray.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/SoftBody/AlignedTetraArray.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/SoftBody/Collections.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/SoftBody/Collections.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/SoftBody/DefaultSoftBodySolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/SoftBody/DefaultSoftBodySolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/SoftBody/SoftBody.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/SoftBody/SoftBody.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/SoftBody/SoftBodyHelpers.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/SoftBody/SoftBodyHelpers.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/SoftBody/SoftBodyRigidBodyCollisionConfiguration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/SoftBody/SoftBodyRigidBodyCollisionConfiguration.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/SoftBody/SoftBodySolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/SoftBody/SoftBodySolver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/SoftBody/SoftRigidDynamicsWorld.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/SoftBody/SoftRigidDynamicsWorld.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/SoftBody/SparseSdf.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/SoftBody/SparseSdf.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Utilities.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletSharp/Utilities.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/Linux/32/libbulletc.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/Linux/32/libbulletc.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/Linux/64/libbulletc.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/Linux/64/libbulletc.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/OSX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/OSX/libbulletc.bundle.dSYM.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/OSX/libbulletc.bundle.dSYM/Contents.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/OSX/libbulletc.bundle.dSYM/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/OSX/libbulletc.bundle.dSYM/Contents/Info.plist.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/OSX/libbulletc.bundle.dSYM/Contents/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/OSX/libbulletc.bundle.dSYM/Contents/Resources/DWARF.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/OSX/libbulletc.bundle.dSYM/Contents/Resources/DWARF/libbulletc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/OSX/libbulletc.bundle.dSYM/Contents/Resources/DWARF/libbulletc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/OSX/libbulletc.bundle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/OSX/libbulletc.bundle/Contents.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/OSX/libbulletc.bundle/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/OSX/libbulletc.bundle/Contents/Info.plist.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/OSX/libbulletc.bundle/Contents/MacOS.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/OSX/libbulletc.bundle/Contents/MacOS/libbulletc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/OSX/libbulletc.bundle/Contents/MacOS/libbulletc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/OSX/libbulletc.bundle/Contents/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/OSX/libbulletc.bundle/Contents/Resources/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/OSX/libbulletc.bundle/Contents/Resources/CMakeLists.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/OSX/libbulletc.bundle/Contents/Resources/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/OSX/libbulletc.bundle/Contents/Resources/Makefile.am.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/OSX/libbulletc.bundle/Contents/Resources/hacdCircularList.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/OSX/libbulletc.bundle/Contents/Resources/hacdCircularList.inl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/OSX/libbulletc.bundle/Contents/Resources/hacdVector.inl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/OSX/libbulletc.bundle/Contents/Resources/hacdVector.inl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/OSX/libbulletc.bundle/Contents/Resources/premake4.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/OSX/libbulletc.bundle/Contents/Resources/premake4.lua.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/UWP.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/UWP/ARM.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/UWP/ARM/libbulletc.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/UWP/ARM/libbulletc.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/UWP/x64.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/UWP/x64/libbulletc.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/UWP/x64/libbulletc.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/UWP/x86.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/UWP/x86/libbulletc.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/UWP/x86/libbulletc.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/android.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/android/armeabi-v7a.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/android/armeabi-v7a/libbulletc.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/android/armeabi-v7a/libbulletc.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/android/x86.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/android/x86/libbulletc.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/android/x86/libbulletc.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btActionInterface_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btActionInterface_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btAlignedObjectArray_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btAlignedObjectArray_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btAxisSweep3_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btAxisSweep3_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btBox2dBox2dCollisionAlgorithm_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btBox2dBox2dCollisionAlgorithm_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btBox2dShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btBox2dShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btBoxBoxCollisionAlgorithm_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btBoxBoxCollisionAlgorithm_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btBoxBoxDetector_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btBoxBoxDetector_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btBoxCollision_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btBoxCollision_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btBoxShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btBoxShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btBroadphaseInterface_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btBroadphaseInterface_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btBroadphaseProxy_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btBroadphaseProxy_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btBulletFile_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btBulletFile_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btBulletWorldImporter_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btBulletWorldImporter_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btBulletXmlWorldImporter_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btBulletXmlWorldImporter_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btBvhTriangleMeshShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btBvhTriangleMeshShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btCapsuleShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btCapsuleShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btCharacterControllerInterface_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btCharacterControllerInterface_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btCollisionAlgorithm_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btCollisionAlgorithm_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btCollisionConfiguration_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btCollisionConfiguration_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btCollisionCreateFunc_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btCollisionCreateFunc_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btCollisionDispatcher_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btCollisionDispatcher_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btCollisionObjectWrapper_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btCollisionObjectWrapper_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btCollisionObject_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btCollisionObject_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btCollisionShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btCollisionShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btCollisionWorld_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btCollisionWorld_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btCompoundCollisionAlgorithm_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btCompoundCollisionAlgorithm_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btCompoundCompoundCollisionAlgorithm_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btCompoundCompoundCollisionAlgorithm_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btCompoundFromGimpact_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btCompoundFromGimpact_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btCompoundShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btCompoundShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btConcaveShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btConcaveShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btConeShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btConeShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btConeTwistConstraint_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btConeTwistConstraint_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btConstraintSolver_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btConstraintSolver_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btContactConstraint_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btContactConstraint_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btContactSolverInfo_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btContactSolverInfo_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btContinuousConvexCollision_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btContinuousConvexCollision_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btConvex2dConvex2dAlgorithm_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btConvex2dConvex2dAlgorithm_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btConvex2dShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btConvex2dShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btConvexCast_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btConvexCast_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btConvexConcaveCollisionAlgorithm_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btConvexConcaveCollisionAlgorithm_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btConvexConvexAlgorithm_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btConvexConvexAlgorithm_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btConvexHullShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btConvexHullShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btConvexInternalShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btConvexInternalShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btConvexPenetrationDepthSolver_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btConvexPenetrationDepthSolver_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btConvexPlaneCollisionAlgorithm_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btConvexPlaneCollisionAlgorithm_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btConvexPointCloudShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btConvexPointCloudShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btConvexPolyhedron_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btConvexPolyhedron_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btConvexShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btConvexShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btConvexTriangleMeshShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btConvexTriangleMeshShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btCpuFeatureUtility_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btCpuFeatureUtility_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btCylinderShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btCylinderShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btDantzigSolver_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btDantzigSolver_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btDbvtBroadphase_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btDbvtBroadphase_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btDbvt_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btDbvt_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btDefaultCollisionConfiguration_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btDefaultCollisionConfiguration_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btDefaultMotionState_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btDefaultMotionState_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btDefaultSoftBodySolver_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btDefaultSoftBodySolver_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btDiscreteCollisionDetectorInterface_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btDiscreteCollisionDetectorInterface_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btDiscreteDynamicsWorld_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btDiscreteDynamicsWorld_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btDispatcher_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btDispatcher_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btDynamicsWorld_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btDynamicsWorld_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btEmptyCollisionAlgorithm_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btEmptyCollisionAlgorithm_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btEmptyShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btEmptyShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btFixedConstraint_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btFixedConstraint_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btGImpactBvh_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btGImpactBvh_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btGImpactCollisionAlgorithm_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btGImpactCollisionAlgorithm_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btGImpactQuantizedBvh_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btGImpactQuantizedBvh_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btGImpactShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btGImpactShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btGearConstraint_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btGearConstraint_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btGeneric6DofConstraint_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btGeneric6DofConstraint_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btGeneric6DofSpring2Constraint_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btGeneric6DofSpring2Constraint_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btGeneric6DofSpringConstraint_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btGeneric6DofSpringConstraint_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btGeometryUtil_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btGeometryUtil_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btGhostObject_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btGhostObject_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btGjkConvexCast_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btGjkConvexCast_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btGjkEpaPenetrationDepthSolver_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btGjkEpaPenetrationDepthSolver_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btGjkPairDetector_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btGjkPairDetector_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btHeightfieldTerrainShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btHeightfieldTerrainShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btHinge2Constraint_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btHinge2Constraint_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btHingeConstraint_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btHingeConstraint_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btIDebugDraw_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btIDebugDraw_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btKinematicCharacterController_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btKinematicCharacterController_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btLemkeSolver_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btLemkeSolver_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btMLCPSolverInterface_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btMLCPSolverInterface_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btMLCPSolver_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btMLCPSolver_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btManifoldPoint_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btManifoldPoint_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btManifoldResult_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btManifoldResult_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btMinkowskiPenetrationDepthSolver_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btMinkowskiPenetrationDepthSolver_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btMinkowskiSumShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btMinkowskiSumShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btMotionState_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btMotionState_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btMultiBodyConstraintSolver_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btMultiBodyConstraintSolver_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btMultiBodyConstraint_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btMultiBodyConstraint_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btMultiBodyDynamicsWorld_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btMultiBodyDynamicsWorld_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btMultiBodyJointLimitConstraint_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btMultiBodyJointLimitConstraint_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btMultiBodyJointMotor_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btMultiBodyJointMotor_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btMultiBodyLinkCollider_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btMultiBodyLinkCollider_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btMultiBodyLink_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btMultiBodyLink_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btMultiBodyPoint2Point_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btMultiBodyPoint2Point_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btMultiBodySolverConstraint_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btMultiBodySolverConstraint_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btMultiBody_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btMultiBody_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btMultiSphereShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btMultiSphereShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btMultimaterialTriangleMeshShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btMultimaterialTriangleMeshShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btNNCGConstraintSolver_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btNNCGConstraintSolver_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btOptimizedBvh_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btOptimizedBvh_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btOverlappingPairCache_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btOverlappingPairCache_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btOverlappingPairCallback_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btOverlappingPairCallback_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btPersistentManifold_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btPersistentManifold_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btPoint2PointConstraint_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btPoint2PointConstraint_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btPointCollector_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btPointCollector_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btPolarDecomposition_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btPolarDecomposition_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btPolyhedralConvexShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btPolyhedralConvexShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btQuantizedBvh_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btQuantizedBvh_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btRaycastVehicle_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btRaycastVehicle_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btRigidBody_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btRigidBody_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btScaledBvhTriangleMeshShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btScaledBvhTriangleMeshShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btSequentialImpulseConstraintSolver_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btSequentialImpulseConstraintSolver_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btSerializer_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btSerializer_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btShapeHull_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btShapeHull_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btSimulationIslandManager_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btSimulationIslandManager_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btSliderConstraint_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btSliderConstraint_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btSoftBodyConcaveCollisionAlgorithm_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btSoftBodyConcaveCollisionAlgorithm_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btSoftBodyHelpers_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btSoftBodyHelpers_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btSoftBodyRigidBodyCollisionConfiguration_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btSoftBodyRigidBodyCollisionConfiguration_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btSoftBodySolvers_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btSoftBodySolvers_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btSoftBody_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btSoftBody_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btSoftRigidCollisionAlgorithm_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btSoftRigidCollisionAlgorithm_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btSoftRigidDynamicsWorld_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btSoftRigidDynamicsWorld_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btSoftSoftCollisionAlgorithm_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btSoftSoftCollisionAlgorithm_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btSparseSdf3_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btSparseSdf3_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btSphereBoxCollisionAlgorithm_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btSphereBoxCollisionAlgorithm_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btSphereShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btSphereShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btSphereSphereCollisionAlgorithm_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btSphereSphereCollisionAlgorithm_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btSphereTriangleCollisionAlgorithm_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btSphereTriangleCollisionAlgorithm_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btStaticPlaneShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btStaticPlaneShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btStridingMeshInterface_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btStridingMeshInterface_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btTetrahedronShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btTetrahedronShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btTransformUtil_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btTransformUtil_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btTriangleBuffer_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btTriangleBuffer_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btTriangleCallback_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btTriangleCallback_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btTriangleIndexVertexArray_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btTriangleIndexVertexArray_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btTriangleIndexVertexMaterialArray_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btTriangleIndexVertexMaterialArray_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btTriangleInfoMap_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btTriangleInfoMap_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btTriangleMeshShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btTriangleMeshShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btTriangleMesh_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btTriangleMesh_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btTriangleShapeEx_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btTriangleShapeEx_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btTriangleShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btTriangleShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btTypedConstraint_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btTypedConstraint_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btUniformScalingShape_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btUniformScalingShape_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btUnionFind_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btUnionFind_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btUniversalConstraint_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btUniversalConstraint_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btVehicleRaycaster_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btVehicleRaycaster_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btVoronoiSimplexSolver_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btVoronoiSimplexSolver_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btWheelInfo_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btWheelInfo_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btWorldImporter_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/btWorldImporter_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/bulletc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/bulletc.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/collections.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/collections.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/conversion.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/conversion.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/hacdHACD_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/hacdHACD_wrap.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/libbulletc.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/libbulletc.a.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/main.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/iOS/main.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/x64.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/x64/libbulletc.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/x86.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/x86/libbulletc.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Native/x86/libbulletc.dll.meta" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Source/BulletSharp/Collision/GImpact/GImpactShape.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-9608">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+              <folding>
+                <marker date="1550025843006" expanded="false" signature="6:132" ph="..." />
+                <marker date="1550025843006" expanded="true" signature="155:26889" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="190:248" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="298:924" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="369:377" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="452:538" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="985:8343" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="1137:1145" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="1228:1326" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="1329:1501" ph="/* public void GetBulletTriangle(int primIndex, TriangleShapeEx triangle) ... */" />
+                <marker date="1550025843006" expanded="true" signature="1597:1700" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="1750:1798" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="1844:1959" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="1962:2134" ph="/* public void GetPrimitiveTriangle(int index, PrimitiveTriangle triangle) ... */" />
+                <marker date="1550025843006" expanded="true" signature="2167:2228" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="2256:2312" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="2417:2530" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="2619:2720" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="2782:2867" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="2902:2965" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="2994:3051" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="3060:3173" ph="/* public GImpactBoxSet BoxSet ... */" />
+                <marker date="1550025843006" expanded="true" signature="3214:3313" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="3357:3437" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="3462:3532" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="3556:3653" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="3694:3780" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="3818:3901" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="3930:4008" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="5136:5312" ph="/* [DllImport(Native.Dll, CallingConvention = Native.Conv), SuppressUnmanagedCodeSecurity] ... */" />
+                <marker date="1550025843006" expanded="true" signature="8406:8708" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="8566:8618" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="8663:8705" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="8768:10899" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="8905:8913" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="8986:8994" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="9113:9121" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="9195:9325" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="9376:9487" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="9550:9623" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="9683:10021" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="9703:10017" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="9772:9953" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="10961:22021" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="11081:11089" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="11261:11304" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="11451:11459" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="11560:11568" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="11571:11768" ph="/* public void GetBulletTriangle(int primIndex, TriangleShapeEx triangle) ... */" />
+                <marker date="1550025843006" expanded="true" signature="11854:11978" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="12041:12145" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="12167:12240" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="12264:12339" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="12366:12550" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="12576:12764" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="12800:12988" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="13012:13198" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="13221:13399" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="13445:13625" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="13490:13621" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="13648:13830" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="13853:14035" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="14054:14228" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="14252:14483" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="14263:14391" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="14504:14682" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="14711:14885" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="14913:15099" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="15125:15225" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="22081:24367" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="22223:22231" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="22304:22312" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="22458:22466" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="22528:22607" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="22626:22693" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="22756:22835" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="22906:23254" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="22926:23250" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="23001:23180" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="23280:23354" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="24423:26418" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="24572:24580" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="24701:24744" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="24798:24890" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="24936:25267" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="24956:25263" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="25014:25210" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="25295:25367" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="25430:25483" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="25540:25766" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="25602:25719" ph="{...}" />
+                <marker date="1550025843006" expanded="true" signature="26509:26887" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="E:/Workspace/WordRecounter" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Source/BulletSharp/Collision/GImpact/GImpactShape.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/BulletSharp.Core/Class1.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-392" />
+    <option name="width" value="2540" />
+    <option name="height" value="1087" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BulletSharp.Core" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BulletSharp.Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="BulletSharp.Core" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BulletSharp.Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="BulletSharp.Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Source" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BulletSharp.Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="BulletSharp.Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Source" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="BulletSharp" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BulletSharp.Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="BulletSharp.Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Source" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="BulletSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Collision" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BulletSharp.Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="BulletSharp.Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Source" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="BulletSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Collision" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="GImpact" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/BulletSharp.Core.csproj" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.scopes" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1800c96b-cdbb-4334-a623-b5ef1e6e80b2" name="Default Changelist" comment="" />
+      <created>1550108245978</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550108245978</updated>
+      <workItem from="1550108248392" duration="634000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="634000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="2560" height="1440" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="TeamCity" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/BulletSharp.Core/Class1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/BulletSharp/Collision/GImpact/GImpactShape.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9608">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <marker date="1550025843006" expanded="false" signature="6:132" ph="..." />
+            <marker date="1550025843006" expanded="true" signature="155:26889" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="190:248" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="298:924" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="369:377" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="452:538" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="985:8343" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="1137:1145" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="1228:1326" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="1329:1501" ph="/* public void GetBulletTriangle(int primIndex, TriangleShapeEx triangle) ... */" />
+            <marker date="1550025843006" expanded="true" signature="1597:1700" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="1750:1798" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="1844:1959" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="1962:2134" ph="/* public void GetPrimitiveTriangle(int index, PrimitiveTriangle triangle) ... */" />
+            <marker date="1550025843006" expanded="true" signature="2167:2228" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="2256:2312" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="2417:2530" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="2619:2720" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="2782:2867" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="2902:2965" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="2994:3051" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="3060:3173" ph="/* public GImpactBoxSet BoxSet ... */" />
+            <marker date="1550025843006" expanded="true" signature="3214:3313" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="3357:3437" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="3462:3532" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="3556:3653" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="3694:3780" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="3818:3901" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="3930:4008" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="5136:5312" ph="/* [DllImport(Native.Dll, CallingConvention = Native.Conv), SuppressUnmanagedCodeSecurity] ... */" />
+            <marker date="1550025843006" expanded="true" signature="8406:8708" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="8566:8618" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="8663:8705" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="8768:10899" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="8905:8913" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="8986:8994" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="9113:9121" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="9195:9325" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="9376:9487" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="9550:9623" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="9683:10021" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="9703:10017" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="9772:9953" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="10961:22021" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="11081:11089" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="11261:11304" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="11451:11459" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="11560:11568" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="11571:11768" ph="/* public void GetBulletTriangle(int primIndex, TriangleShapeEx triangle) ... */" />
+            <marker date="1550025843006" expanded="true" signature="11854:11978" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="12041:12145" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="12167:12240" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="12264:12339" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="12366:12550" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="12576:12764" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="12800:12988" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="13012:13198" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="13221:13399" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="13445:13625" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="13490:13621" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="13648:13830" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="13853:14035" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="14054:14228" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="14252:14483" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="14263:14391" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="14504:14682" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="14711:14885" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="14913:15099" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="15125:15225" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="22081:24367" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="22223:22231" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="22304:22312" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="22458:22466" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="22528:22607" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="22626:22693" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="22756:22835" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="22906:23254" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="22926:23250" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="23001:23180" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="23280:23354" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="24423:26418" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="24572:24580" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="24701:24744" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="24798:24890" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="24936:25267" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="24956:25263" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="25014:25210" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="25295:25367" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="25430:25483" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="25540:25766" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="25602:25719" ph="{...}" />
+            <marker date="1550025843006" expanded="true" signature="26509:26887" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <last-edited>Unnamed</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
